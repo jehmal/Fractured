@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Witness is Fractured</title>
+    <link rel="stylesheet" href="style.css">
+</head><body>
+    <div id="splash-screen">
+        <div id="splash-content">
+            <p>Click to begin.</p>
+            <p style="font-size: 14px; margin-top: 20px; opacity: 0.7;">Use mouse to rotate view • Click photos to examine</p>
+        </div>
+    </div>
+    <div id="info-hud">A project by Jemima Hadida</div>
+    <div id="dialogue-box" class="hidden">
+        <button id="dialogue-close" onclick="closeDialogue()">&times;</button>
+        <h2 id="dialogue-title"></h2>
+        <p id="dialogue-date-location"></p>
+        <p id="dialogue-description"></p>
+        <div id="stats-container"></div>
+        <div id="sources-container">
+            <h3>VERIFY SOURCES:</h3>
+            <div id="sources-list"></div>
+        </div>
+    </div>
+    <div id="xp-bar-container">
+        <div id="xp-label">Humanity Index</div>
+        <div id="xp-bar">
+            <div id="xp-bar-fill"></div>
+        </div>
+    </div>
+    <div id="zoom-hint" class="hidden">Press ESC to return</div>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+                "photo-data": "./photo-data.js"
+            }
+        }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html> 

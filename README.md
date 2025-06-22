@@ -64,4 +64,15 @@ All original code is released under the MIT License. Historical photographs rema
 
 ---
 
-© 2024 Jemima Hadida
+## Author & Course Details
+
+- **Name:** Jehmal Pitt  
+- **Student Number:** 1012294  
+- **Student Email:** 1012294@student.sae.edu.au  
+- **Course:** Master of Creative Industries  
+- **Lecturer:** Lola Montgomery  
+- **Assessment:** Assessment 1 – Critical and Creative Response: Truth and Beauty
+
+---
+
+© 2024 Jehmal Pitt
